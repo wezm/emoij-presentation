@@ -4,6 +4,8 @@ Emoji Presentation
 This is a small tool that prints the `Emoji` and `Emoji_Presentation` Unicode
 properties for each character on the command line.
 
+![Unicode 13.0](https://img.shields.io/badge/Unicode-13.0-informational?logo=Unicode&logoColor=whitesmoke)
+
 Building
 --------
 
@@ -19,9 +21,11 @@ run:
 Running
 -------
 
-    $ emoji-presentation ✅❌
+    $ emoji-presentation ✅❌☂@
     ✅ Emoji=true, Emoji_Presentation=true
     ❌ Emoji=true, Emoji_Presentation=true
+    ☂ Emoji=true, Emoji_Presentation=false
+    @ Emoji=false, Emoji_Presentation=false
 
 Licence
 -------
